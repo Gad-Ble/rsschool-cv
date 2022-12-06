@@ -9,8 +9,7 @@
 
 ### About me
 
-I am a novice programmer who has set a goal to master the FrontEnd profession. I have taken many different preparatory courses and marathons on various platforms.
-I learned the basics of HTML, CSS and JS. I am a very fast learner and in my quest I want to find a new profession.
+I am a novice programmer who has set a goal to master the FrontEnd profession. I am a very fast learner and I want to discover a new profession.
 
 **************************
 
@@ -23,4 +22,11 @@ I learned the basics of HTML, CSS and JS. I am a very fast learner and in my que
 **************************
 ### Code examples
 
+This code does not execute properly. Try to figure out why.
 
+```
+function multiply(a, b){
+  return a * b
+};
+```
+There was no "return" operator in the function that performs multiplication
