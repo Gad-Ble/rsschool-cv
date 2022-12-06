@@ -29,4 +29,4 @@ function multiply(a, b){
   return a * b
 };
 ```
-There was no "return" operator in the function that performs multiplication
+There was no "return" operator in the function that performs multiplication.
