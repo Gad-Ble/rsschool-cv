@@ -1,12 +1,26 @@
-# Комендант Борислав
+# Borislav Komendant
 
-### Контакты
+### Contacts
 * +77018335762
 * +77473076729
+* Discord: Borislav (@Gad-Ble)
 
 **************************
 
-### О себе
+### About me
 
-Я начинающий программист, который поставил перед собой цель освоить профессию FrontEnd. Проходил много разных подготовительных курсов и марафонов на различных платформах. 
-Научился основам HTML, CSS а также JS. Я очень быстро обучаюсь и в своем стремлении хочу обрести новую профессию.
+I am a novice programmer who has set a goal to master the FrontEnd profession. I have taken many different preparatory courses and marathons on various platforms.
+I learned the basics of HTML, CSS and JS. I am a very fast learner and in my quest I want to find a new profession.
+
+**************************
+
+### Skills
+
+* HTML, 
+* CSS, 
+* JS elementary
+
+**************************
+### Code examples
+
+
