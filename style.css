@@ -1,1 +1,187 @@
+body {
+    font-family: 'Roboto Serif', serif;;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
 
+hr {
+    color: #565656;
+    border-top: 3px solid #565656;
+    width: 1170px;
+}
+
+h2 {
+    font-size: 30px;
+}
+header {
+   margin: 50px 0;
+}
+
+section {
+    margin: 50px 0;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.name {
+    background-color: rgb(49, 49, 49);
+    width: 70vh;
+    padding: 35px 50px;
+}
+
+.name h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.name h3 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.header {
+    display: flex;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    margin-left: 30px;
+    padding-left: 70px;
+    border-left: 4px solid #565656;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: black;
+}
+
+.telephone {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    line-height: 25px;
+}
+
+.telephone img {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 185px;
+    top: 14px;
+}
+
+.e-mail {
+    position: relative;
+}
+
+.e-mail img {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 185px;
+    top: 10px;
+}
+
+.github {
+    position: relative;
+}
+
+.github img {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 185px;
+    top: 10px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 700px;
+    padding-top: 50px;
+
+}
+.skills-item h3 {
+    color: black;
+    transition: color 0.2s ease-in-out;
+    cursor: default;
+    font-size: 25px;
+}
+.skills-item h3:hover {
+    color: red;
+}
+
+.skills-item div {
+    display: flex;
+}
+
+.code {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.code code {
+    background-color: #9b9a9a;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.footer {
+    background-color: #9b9a9a;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.rs-school-logo {
+    width: 100px;
+    margin-left: 20px;
+}
+
+.footer p {
+    margin-left: 20px;
+}
+
+.footer a {
+    margin-left: 20px;
+}
+
+.github {
+    position: relative;
+}
+
+.footer .github img {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 120px;
+    top: -3px;
+}
