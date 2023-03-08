@@ -32,3 +32,14 @@ function likes(names) {
 }
 ```
 My solution is based on checking the condition using the if, else statements. If there are no likes, the function returns 'no one likes this', if there is, then the number of likes is checked and their names are output. If the number of likes is more than 3, then the first 3 varnishes are displayed and then the inscription 'others like this' follows.
+
+## Work experience
+At the moment, there are 2 jobs that I did as part of my studies at Stage#0: 
+* Momentum: https://github.com/Gad-Ble/momentum
+* Plants: https://github.com/Gad-Ble/Plants
+
+## Education
+School stage#0 courses, introductory courses of the Way Up Academy and many other marathons and introductory courses of the basics of HTML, CSS and JS have been completed.
+
+## My english language level
+**A1**
