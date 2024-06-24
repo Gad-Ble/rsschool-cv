@@ -51,3 +51,18 @@ function tribonacci(signature,n){
   return arr;
 }
 ```
+
+### Projects:
+
+1. [Plants](https://gad-ble.github.io/Plants/) -
+    [source code](https://github.com/Gad-Ble/Plants.git)
+2. [Momentum](https://gad-ble.github.io/momentum/) - 
+    [source code](https://github.com/Gad-Ble/momentum.git)
+3. [cssBayan](https://gad-ble.github.io/cssBayan/cssBayan/) - 
+    [source code](https://github.com/Gad-Ble/cssBayan.git)
+
+### Education
+School stage#0 courses, introductory courses of the Way Up Academy and many other marathons and introductory courses of the basics of HTML, CSS and JS have been completed.
+
+### My english language level
+**A1**
