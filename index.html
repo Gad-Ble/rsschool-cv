@@ -10,115 +10,78 @@
 </head>
 
 <body>
-    <div class="page">
-        <div class="left">
-            <img class="avatar" src="./img/119871838.jfif" alt="Avatar">
-            <div class="contacts">
-                <h3>Contacts:</h3>
-                <ul>
-                    <li>Phone number: 87018335762</li>
-                    <li>E-Mail: gad26166@gmail.com</li>
-                    <li>Discord: borya.kom</li>
-                </ul>
-            </div>
-            <div class="skills">
-                <h3>Skills:</h3>
-                <ul>
-                    <li>JavaScript (basic)</li>
-                    <li>HTML (basic)</li>
-                    <li>CSS (basic)</li>
-                    <li>PHP (basic)</li>
-                    <li>GIT (basic)</li>
-                </ul>
-            </div>
-            <div class="projects">
-                <h3>Projects:</h3>
-                <ol>
-                    <li>
-                        <a href="https://gad-ble.github.io/Plants/">Plants -</a>
-                        <a href="https://github.com/Gad-Ble/Plants.git">Source code</a>
-                    </li>
-                    <li>
-                        <a href="https://gad-ble.github.io/momentum/">Momentum -</a>
-                        <a href="https://github.com/Gad-Ble/momentum.git">Source code</a>
-                    </li>
-                    <li>
-                        <a href="https://gad-ble.github.io/cssBayan/cssBayan/">cssBayan -</a>
-                        <a href="https://github.com/Gad-Ble/cssBayan.git">Source code</a>
-                    </li>
-                </ol>
-            </div>
-            <div class="english_level">
-                <h3>My english level</h3>
-                <span>A1</span>
+    <header>
+        <div class="container">
+            <div class="header">
+                <img class="avatar" src="./img/119871838.jfif" alt="Avatar">
+                <div>
+                    <h1>Komendant Borislav</h1>
+                    <nav>
+                        <ul class="navbar">
+                            <li><a href="#">About me</a></li>
+                            <li><a href="#">Skills</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Education</a></li>
+                            <li><a href="#">Code examples</a></li>
+                            <li><a href="#">Contacts</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                
             </div>
         </div>
-        <div class="right">
-            <h1>Komendant Borislav</h1>
-            <div class="about_me">
-                <h3>About me:</h3>
-                <p>I am a beginner programmer. Unfortunately, there is no work experience, but there are small projects
-                    implemented within the framework of the frontend development course. I have the following qualities:
-                    a
-                    desire to learn, a responsible approach to the task, I rarely ask for help, I willingly solve
-                    complex
-                    problems.</p>
+    </header>
+    <main>
+        <section id="about">
+            <div class="container">
+                <div class="about_me">
+                    <h3>About me:</h3>
+                    <p> I am a beginner programmer. Unfortunately, there is no work experience, but there are small projects
+                        implemented within the framework of the frontend development course. I have the following qualities:
+                        a
+                        desire to learn, a responsible approach to the task, I rarely ask for help, I willingly solve
+                        complex
+                        problems.</p>
+                </div>
             </div>
-            <div class="education">
-                <h3>Education:</h3>
-                <p>School stage#0 courses, introductory courses of the Way Up Academy and many other marathons and
-                    introductory
-                    courses of the basics of HTML, CSS and JS have been completed.</p>
+        </section>
+        <section id="skills">
+            <div class="container">
+                <div class="skills">
+                    <h3>Skills:</h3>
+                    <ul class="image_skills">
+                        <img src="./img/html.png" alt="HTML">
+                        <img src="./img/css.png" alt="CSS">
+                        <img src="./img/js.png" alt="JS">
+                        <img src="./img/git.png" alt="GIT">
+                        <img src="./img/php.png" alt="PHP">
+                    </ul>
+                </div>
             </div>
-            <div class="code_examples">
-                <h3>Code examples:</h3>
-                <ol>
-                    <li>
-                        <p>Your task is to sort a given string. Each word in the string will contain a single number.
-                            This
-                            number is the position the word should have in the result.</p>
-                        <pre>
-                            <code>function order(words){
-                            let arr = words.split(' ');
-                            let sortWords = [];
-                            let result = '';
-                            for (i=0; i&lt;arr.length; i++){
-                              for(j=0; j&lt;arr[j].length; j++){
-                                let num = Number(arr[i][j]);
-                                if(Number.isInteger(num)){
-                                  sortWords[num-1] = arr[i];;
-                                }
-                              }
-                            }
-                            result = sortWords.join(' ');
-                            return result;
-                          }
-                        </code>
-                    </pre>
-                    </li>
-                    <li>
-                        <p>Fibonacci numbers with a modified condition, 3 numbers are given instead of two</p>
-                        <pre>
-                            <code>
-                                function tribonacci(signature,n){
-                                    let arr = signature;
-                                    if (arr.length &lt; n) {
-                                      for (let i = arr.length; i &lt; n; i++) {
-                                        arr.push(arr[i - 1] + arr[i - 2] + arr[i - 3]);
-                                      }
-                                    } else {
-                                      arr = arr.slice(arr.length - n);
-                                    }
-                                    console.log(signature);
-                                    return arr;
-                                }
-                            </code>
-                        </pre>
-                    </li>
-                </ol>
+        </section>
+        <section id="projects">
+            <div class="container">
+                <div class="projects">
+                    <h3>Projects:</h3>
+                    <ul class="project_links">
+                        <li>
+                            <a href="https://gad-ble.github.io/Plants/"><img src="./img/plants.png" alt="Plants"></a>
+                            <a href="https://github.com/Gad-Ble/Plants.git">Source code</a>
+                        </li>
+                        <li>
+                            <a href="https://gad-ble.github.io/momentum/"><img src="./img/momentum.png" alt="Momentum"></a>
+                            <a href="https://github.com/Gad-Ble/momentum.git">Source code</a>
+                        </li>
+                        <li>
+                            <a href="https://gad-ble.github.io/cssBayan/cssBayan/"><img src="./img/cssbayan.png" alt="cssBayan"></a>
+                            <a href="https://github.com/Gad-Ble/cssBayan.git">Source code</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </div>
+        </section>
+    </main>
+    <footer></footer>
 </body>
 
 </html>

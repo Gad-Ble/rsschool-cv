@@ -1,44 +1,97 @@
-body {
-    background-color: rgb(105, 88, 66);
-    font-size: 15px;
-}
-.page {
+.container {
     width: 1440px;
+    padding: 20px;
     margin: 0 auto;
+}
+.header {
     display: flex;
-    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-bottom: 30px;
+}
+h1 {
+    font-size: 80px;
+    font-weight: 600;
+    text-shadow: 4px 4px 11px rgb(34 60 80 / 45%);
+}
+h3 {
+    font-size: 50px;
+    font-weight: 600;
+    text-shadow: 4px 4px 11px rgb(34 60 80 / 45%);
 }
 .avatar {
     border: 1px solid black;
-    border-radius: 180px;
+    border-radius: 360px;
+    width: 300px;
+    box-shadow: 4px 4px 11px 7px rgb(34 60 80 / 45%);
 }
-.right {
-    border-left: 1px solid gray;
-    padding: 30px;
-    margin: 0 auto;
+.navbar {
+    display: flex;
+    gap: 50px;
 }
-.left {
-    padding: 30px;
-    line-height: 25px;
+.navbar li a {
+    font-size: 20px;
+    text-shadow: 4px 4px 11px rgb(34 60 80 / 45%);
+    color: blue;
+    transition: all 0.5s ease;
 }
-
-.left div {
-    padding-top: 10px;
+.navbar li a:hover {
+    color: rgba(2, 128, 107, 0.623);
 }
-.right div {
-    padding-top: 10px;
-}
-
-h1 {
-    font-size: 48px;
-    font-weight: bold;
-}
-h3 {
-    font-size: 24px;
-    font-weight: bold;
-    border-bottom: 1px solid black;
+.about_me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 20px;   
+    border-bottom: 1px solid blue ;
 }
 p {
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-indent: 50px;
+    font-style: italic;
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid blue ;
+}
+.image_skills {
+    display: flex;
+    gap: 100px;
+}
+.image_skills img {
+    width: 150px;
+}
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid blue ;
+}
+.project_links {
+    display: flex;
+    gap: 200px;
+}
+.project_links li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.project_links li a {
+    font-size: 20px;
+    text-shadow: 4px 4px 11px rgb(34 60 80 / 45%);
+    color: blue;
+    transition: all 0.5s ease;
+}
+.project_links li a:hover {
+    color: rgba(2, 128, 107, 0.623);
 }
