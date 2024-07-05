@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(105, 88, 66);
+}
+.page {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    background-color: white;
+    padding: 30px;
+}
+.avatar {
+    border: 1px solid black;
+    border-radius: 180px;
+}
+.right {
+    background-color: gray;
+    padding-left: 30px;
+}
+
+.left div {
+    padding-top: 10px;
+}
+.right div {
+    padding-top: 10px;
+}
