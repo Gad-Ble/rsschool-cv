@@ -18,16 +18,16 @@
                     <h1>Komendant Borislav</h1>
                     <nav>
                         <ul class="navbar">
-                            <li><a href="#">About me</a></li>
-                            <li><a href="#">Skills</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">Education</a></li>
-                            <li><a href="#">Code examples</a></li>
-                            <li><a href="#">Contacts</a></li>
+                            <li><a href="#about">About me</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#education">Education</a></li>
+                            <li><a href="#code">Code examples</a></li>
+                            <li><a href="#contacts">Contacts</a></li>
                         </ul>
                     </nav>
                 </div>
-                
+
             </div>
         </div>
     </header>
@@ -35,20 +35,24 @@
         <section id="about">
             <div class="container">
                 <div class="about_me">
-                    <h3>About me:</h3>
-                    <p> I am a beginner programmer. Unfortunately, there is no work experience, but there are small projects
-                        implemented within the framework of the frontend development course. I have the following qualities:
+                    <h2>About me:</h2>
+                    <p> I am a beginner programmer. Unfortunately, there is no work experience, but there are small
+                        projects
+                        implemented within the framework of the frontend development course. I have the following
+                        qualities:
                         a
                         desire to learn, a responsible approach to the task, I rarely ask for help, I willingly solve
                         complex
-                        problems.</p>
+                        problems.
+                    </p>
+                    <span class="english">My english level: A1</span>
                 </div>
             </div>
         </section>
         <section id="skills">
             <div class="container">
                 <div class="skills">
-                    <h3>Skills:</h3>
+                    <h2>Skills:</h2>
                     <ul class="image_skills">
                         <img src="./img/html.png" alt="HTML">
                         <img src="./img/css.png" alt="CSS">
@@ -62,26 +66,113 @@
         <section id="projects">
             <div class="container">
                 <div class="projects">
-                    <h3>Projects:</h3>
+                    <h2>Projects:</h2>
                     <ul class="project_links">
                         <li>
                             <a href="https://gad-ble.github.io/Plants/"><img src="./img/plants.png" alt="Plants"></a>
                             <a href="https://github.com/Gad-Ble/Plants.git">Source code</a>
                         </li>
                         <li>
-                            <a href="https://gad-ble.github.io/momentum/"><img src="./img/momentum.png" alt="Momentum"></a>
+                            <a href="https://gad-ble.github.io/momentum/"><img src="./img/momentum.png"
+                                    alt="Momentum"></a>
                             <a href="https://github.com/Gad-Ble/momentum.git">Source code</a>
                         </li>
                         <li>
-                            <a href="https://gad-ble.github.io/cssBayan/cssBayan/"><img src="./img/cssbayan.png" alt="cssBayan"></a>
+                            <a href="https://gad-ble.github.io/cssBayan/cssBayan/"><img src="./img/cssbayan.png"
+                                    alt="cssBayan"></a>
                             <a href="https://github.com/Gad-Ble/cssBayan.git">Source code</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </section>
+        <section id="education">
+            <div class="container">
+                <div class="education">
+                    <h2>Education:</h2>
+                    <p>School stage#0 courses, introductory courses of the Way Up Academy and many other marathons and
+                        introductory
+                        courses of the basics of HTML, CSS and JS have been completed.</p>
+                </div>
+            </div>
+        </section>
+        <section id="code">
+            <div class="container">
+                <div class="code_examples">
+                    <h2>Code examples:</h2>
+                    <ol class="code_list">
+                        <li>
+                            <p>Your task is to sort a given string. Each word in the string will contain a single
+                                number.
+                                This
+                                number is the position the word should have in the result.</p>
+                            <br>
+                            <pre>
+                                <code>function order(words){
+                                let arr = words.split(' ');
+                                let sortWords = [];
+                                let result = '';
+                                for (i=0; i&lt;arr.length; i++){
+                                  for(j=0; j&lt;arr[j].length; j++){
+                                    let num = Number(arr[i][j]);
+                                    if(Number.isInteger(num)){
+                                      sortWords[num-1] = arr[i];;
+                                    }
+                                  }
+                                }
+                                result = sortWords.join(' ');
+                                return result;
+                              }
+                            </code>
+                        </pre>
+                        </li>
+                        <li>
+                            <p>Fibonacci numbers with a modified condition, 3 numbers are given instead of two</p>
+                            <pre>
+                                <code>
+                                    function tribonacci(signature,n){
+                                        let arr = signature;
+                                        if (arr.length &lt; n) {
+                                          for (let i = arr.length; i &lt; n; i++) {
+                                            arr.push(arr[i - 1] + arr[i - 2] + arr[i - 3]);
+                                          }
+                                        } else {
+                                          arr = arr.slice(arr.length - n);
+                                        }
+                                        console.log(signature);
+                                        return arr;
+                                    }
+                                </code>
+                            </pre>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+        <section id="contacts">
+            <div class="container">
+                <div class="contacts_block">
+                    <h2>Contacts:</h2>
+                    <ul class="contacts_list">
+                        <li><img src="./img/tel.png" alt="telephone"><a href="tel:87018335762">87018335762</a></li>
+                        <li><img src="./img/mail.png" alt="mail"><a
+                                href="mailto:gad26166@gmail.com">gad26166@gmail.com</a></li>
+                        <li><img src="./img/discord.png" alt="discord">borya.kom</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <a href="https://github.com/Gad-Ble"><img src="./img/github.png" alt="GitHub"></a>
+                <span class="year">2024</span>
+                <a href="https://rs.school/courses/javascript-preschool-ru"><img src="./img/rsschool.svg"
+                        alt="RSSchool"></a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
